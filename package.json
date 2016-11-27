@@ -1,6 +1,6 @@
 {
   "name": "intravenous-code-adaptor",
-  "version": "0.0.0",
+  "version": "1.0.0-0",
   "description": "An adaptor for wrapping code in a format usable by Intravenous",
   "main": "src/server.js",
   "scripts": {
