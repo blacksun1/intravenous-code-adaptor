@@ -1,0 +1,32 @@
+{
+  "name": "intravenous-code-adaptor",
+  "version": "0.0.0",
+  "description": "An adaptor for wrapping code in a format usable by Intravenous",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "lab",
+    "travis": "lab -r lcov | node_modules/.bin/coveralls",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blacksun1/intravenous-code-adaptor.git"
+  },
+  "keywords": [
+    "intravenous",
+    "IOC",
+    "adaptor"
+  ],
+  "author": "Simon Bruce <simon@blacksun.cx>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blacksun1/intravenous-code-adaptor/issues"
+  },
+  "homepage": "https://github.com/blacksun1/intravenous-code-adaptor#readme",
+  "devDependencies": {
+    "code": "^4.0.0",
+    "coveralls": "^2.11.15",
+    "lab": "^11.2.1",
+    "sinon": "^1.17.6"
+  }
+}
