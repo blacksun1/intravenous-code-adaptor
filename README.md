@@ -1,5 +1,8 @@
 # intravenous-code-adaptor
 
+[![Build Status](https://travis-ci.org/blacksun1/intravenous-code-adaptor.svg?branch=master)](https://travis-ci.org/blacksun1/intravenous-code-adaptor)
+[![Coverage Status](https://coveralls.io/repos/github/blacksun1/intravenous-code-adaptor/badge.svg?branch=master)](https://coveralls.io/github/blacksun1/intravenous-code-adaptor?branch=master)
+
 An adaptor for wrapping code in a format usable by Intravenous
 
 ## Details
