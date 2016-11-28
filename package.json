@@ -14,8 +14,10 @@
   },
   "keywords": [
     "intravenous",
+    "mainliner",
     "IOC",
-    "adaptor"
+    "adaptor",
+    "inversion of control"
   ],
   "author": "Simon Bruce <simon@blacksun.cx>",
   "license": "MIT",
