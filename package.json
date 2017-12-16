@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/blacksun1/intravenous-code-adaptor#readme",
   "devDependencies": {
-    "code": "^4.0.0",
-    "coveralls": "^2.11.15",
-    "lab": "^11.2.1",
-    "sinon": "^1.17.6"
+    "code": "^5.1.2",
+    "coveralls": "^3.0.0",
+    "lab": "^15.1.2",
+    "sinon": "^4.1.3"
   }
 }

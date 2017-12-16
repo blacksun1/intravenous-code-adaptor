@@ -19,8 +19,6 @@ describe('.', () => {
 
         // Assert
         expect(Sut).to.exist().and.be.a.function();
-
-        return done();
     });
 
     describe('function', () => {
@@ -29,8 +27,6 @@ describe('.', () => {
 
             // Assert
             expect(Sut.length).to.equal(4);
-
-            return done();
         });
 
         it('should return a function', (done) => {
@@ -40,8 +36,6 @@ describe('.', () => {
 
             // Assert
             expect(actual).to.exist().and.be.a.function();
-
-            return done();
         });
     });
 
@@ -62,8 +56,6 @@ describe('.', () => {
             mockLogger = {
                 info: Sinon.stub()
             };
-
-            return done();
         });
 
         it('should assert that constructor is called with new', (done) => {
@@ -73,16 +65,12 @@ describe('.', () => {
 
             // Assert
             expect(act).to.throw('AssertianError', /^constructor must be called with new$/);
-
-            return done();
         });
 
         it('should include a $inject property', (done) => {
 
             // Assert
             expect(sut.$inject).to.exist().to.be.an.array().and.to.equal(['myLogger']);
-
-            return done();
         });
 
         it('should be newable', (done) => {
@@ -92,8 +80,6 @@ describe('.', () => {
 
             // Assert
             expect(act).to.not.throw();
-
-            return done();
         });
 
         it('should assert on required arguments', (done) => {
@@ -103,8 +89,6 @@ describe('.', () => {
 
             // Assert
             expect(act).to.throw('AssertianError', /^logger is a required argument$/);
-
-            return done();
         });
 
         it('should proxy specified keys', (done) => {
@@ -118,8 +102,6 @@ describe('.', () => {
 
             expect(actual).to.include('eat');
             expect(actual.eat).to.exist().and.be.a.function();
-
-            return done();
         });
 
         it('should inject specified constructor arguments', (done) => {
@@ -134,8 +116,6 @@ describe('.', () => {
             expect(act).to.not.throw();
             Sinon.assert.calledWith(mockLogger.info);
             Sinon.assert.calledWithExactly(mockLogger.info, 'Nom, nom, nom - I love chocolate cake');
-
-            return done();
         });
     });
 });
